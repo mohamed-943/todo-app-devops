@@ -1,7 +1,7 @@
 # Déploiement de l'image publiée par le pipeline (TP2 DevOps HESTIM)
 services:
   app:
-    image: ghcr.io/azeddinekhiat/todo-app-devops:latest
+    image: ghcr.io/mohamed-943/todo-app-devops:latest
     ports:
       - 8080:3000
     restart: unless-stopped
